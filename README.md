@@ -30,7 +30,7 @@ model is a mathematical representation of something that happens in the real wor
 
 Supervised Learning
 Supervised learning deals with labeled data. An example of supervised learning might 
-be to predict, based on data from previous patients, whether a new patient has diabetes
+be to predict, based on data from previous patientw, whether a new patient has diabetes
 -------------------------------------------------------------
 Patient ID 	Age 	Body Mass Index 	Has Diabetes
 1 		31 	24 			No
