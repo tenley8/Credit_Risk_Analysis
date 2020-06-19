@@ -28,32 +28,23 @@ Machine learning is the use of statistical algorithms to perform tasks such as
 learning from data patterns and making predictions. There are many different models—a 
 model is a mathematical representation of something that happens in the real world
 
-Supervised Learning
+## Supervised Learning
 Supervised learning deals with labeled data. An example of supervised learning might 
-be to predict, based on data from previous patientw, whether a new patient has diabetes
--------------------------------------------------------------
-Patient ID 	Age 	Body Mass Index 	Has Diabetes
-1 		31 	24 			No
-2 		68 	39 			Yes
-3 		57 	35 			?
--------------------------------------------------------------
-Each row represents a patient, and the "Has Diabetes" column is the label that 
-informs whether or not the patient has diabetes.
-
+be to predict, based on data from previous patientw, whether a new patient has diabetes.
 Supervised learning can be broadly divided into "Regression" and "Classification"
 
-Regression:
+## Regression:
 - Population Growth Prediction
 - Advetising Popularity prediciton
 - Life Expectancy Prediction
 
-Regression: Used to predict continuous variables
+## Regression: Used to predict continuous variables
 let’s say that we’re interested in predicting a person’s weight based on factors like 
 height, dietary preferences, and exercise patterns. To do this we would collect data on
 a number of people. The regression model’s algorithms would attempt to learn 
 patterns that exist among these factors.
 
-Regression vs. Classification
+## Regression vs. Classification
 There is a major difference between regression and classification models. 
 In our regression example, the target variable, or what we’re trying to predict, 
 is weight. Weight is a continuous variable—a person’s weight can be any numerical 
@@ -62,19 +53,19 @@ the target variable only has two possible values; whether a person votes “Yes�
 When the classification model encounters new data, it would attempt to predict 
 whether the votes cast by people will be “Yes” or “No.”
 
-Classification
+## Classification
 Classification, on the other hand, is used to predict discrete outcomes. 
 For example. Let’s say that we are interested in using a person’s traits, such as age, 
 sex, income, and geographic location, to predict how she or he will vote on a particular issue. 
 The outcome, in this case, is whether the person will vote “Yes” or “N
 
-Unsupervised Learning
+## Unsupervised Learning
 In unsupervised learning, by contrast, machine learning algorithms work with datasets 
 without labeled outcomes. In supervised learning, the labels provide the correct answers. 
 In unsupervised learning, such correct answers, or labels, aren’t provided
 A common application of unsupervised learning is to group customers by purchasing patterns.
 
-## Credit Risk Challenge
+# Credit Risk Challenge
 
 ## Background
 Credit risk is an inherently unbalanced classification problem, as the number of good loans easily outnumber the number of risky loans. Therefore, you’ll need to employ different techniques to train and evaluate models with unbalanced classes. Jill asks you to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. Your final task is to evaluate the performance of these models and make a recommendation on whether they should be used to predict credit risk.
